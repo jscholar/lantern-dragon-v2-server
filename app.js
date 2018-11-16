@@ -10,7 +10,7 @@ const mongoose = require('mongoose');
 
 let pass = '4LHLKB3o43lDctef';
 
-const uri = 'mongodb+srv://Icarus:4LHLKB3o43lDctef@lantern-dragon-usbui.mongodb.net/comments?retryWrites=true';
+const uri = 'mongodb+srv://Icarus:4LHLKB3o43lDctef@lantern-dragon-usbui.mongodb.net/lantern-dragon?retryWrites=true';
 
 mongoose.connect(uri)
   .then(() => {
